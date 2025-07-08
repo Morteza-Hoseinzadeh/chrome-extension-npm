@@ -25,6 +25,18 @@ npx ZephyrExt publish
 
 ---
 
+### How to run:
+
+Install dependencies: **npm install**
+
+Link CLI globally for testing: **npm link (optional)**
+
+Scaffold extension: **ZephyrExt init**
+
+Publish extension: **ZephyrExt publish**
+
+---
+
 ## Usage
 
 ### Scaffold your Chrome extension
