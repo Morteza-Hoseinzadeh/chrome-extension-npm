@@ -1,0 +1,27 @@
+{
+  "name": "ZephyrExt",
+  "version": "1.0.0",
+  "description": "CLI tool to scaffold and publish Chrome extensions easily.",
+  "main": "bin/cli.js",
+  "bin": {
+    "ZephyrExt": "bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.1.4",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "chrome-extension",
+    "cli",
+    "publisher",
+    "scaffold"
+  ],
+  "author": "zephyr-team.ir",
+  "license": "MIT"
+}
