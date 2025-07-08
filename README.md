@@ -29,7 +29,9 @@ npx ZephyrExt publish
 
 Install dependencies: **npm install**
 
-Link CLI globally for testing: **npm link (optional)**
+Link CLI globally for testing: **npm link (if init.js file doesn't exists)**
+
+Run the init script directly (for quick test): **node scripts/init.js**
 
 Scaffold extension: **ZephyrExt init**
 
